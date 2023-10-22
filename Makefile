@@ -4,10 +4,10 @@
 
 CFLAGS = -c -O2 -Wall -fPIC
 
-all: test_plugin
+all: pipe_plugin
 
-test_plugin: plugin.o
-	gcc -o test_plugin.so -shared plugin.o
+pipe_plugin: plugin.o
+	gcc -o pipe_plugin.so -shared plugin.o
 
 plugin.o: ./src/plugin.c
 	gcc -Iinclude src/plugin.c $(CFLAGS)
