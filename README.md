@@ -12,6 +12,10 @@ The main purpose is to be able to perform certain actions using global keyboard 
 
 ## Usage
 
+### Installation
+
+The *.so file must be installed into `$HOME/.ts3client/plugins`.
+
 ### GNOME
 
 Configure a command similar to this as the shortcut command:
